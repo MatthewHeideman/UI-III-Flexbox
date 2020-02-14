@@ -62,5 +62,235 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+*{
+	max-width: 100%;
+}
+
+.master{
+	display: flex;
+	flex-direction: column;
+	width: 1440px;
+	margin-left: 4.5%;
+}
+
+.header{
+	display: flex;
+	width: 100%;
+}
+
+.navbar{
+	display: flex;
+	height: 10vh;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: grey;
+	font-size: large;
+}
+
+.navbar .logo{
+	width: 12%;
+}
+.top-section{
+	width: 100%;
+	display: flex;
+	height: 80vh;
+	justify-content: space-between;
+	margin-top: 10px;
+	padding-bottom: 10vh;
+	border-bottom: black 1px solid;
+}
+.button{
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.button h1{
+	font-size: 100px;
+}
+.button btn{
+	width: 35%;
+	border: 1px solid black;
+	padding: 15px; 
+}
+
+.button btn a{
+	text-decoration: none;
+	color: black;
+}
+.code-img{
+	width:40%;
+}
+.features{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 25vh;
+	align-items: center;
+	text-align: justify;
+}
+.top div{
+	width: 47%;
+}
+.top h1{
+	font-size: x-large;
+}
+.top p{
+	font-size: large;
+}
+.middle-img{
+	width: 100%;
+	height: 30vh;
+}
+.bottom {
+	width: 100%;
+	display: flex;
+	height: 25vh;
+	align-items: center;
+	text-align: justify;
+	justify-content: space-between;
+	border-bottom:black 1px solid;
+}
+.bottom div{
+	width: 31%;
+}
+.bottom h1{
+	font-size: x-large;
+}
+.bottom p{
+	font-size: large;
+}
+footer{
+	margin-top: 2%;
+	width:100%;
+	height: 27vh;
+}
+footer h1{
+	font-size: x-large;
+}
+footer p{
+	font-size: large;
+	line-height: 2rem;
+}
+.copy{
+	text-align: center;
+}
+.services-header-img{
+	width: 100%;
+	height: 30vh;
+}
+.services{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-bottom: black 1px solid;
+}
+.services h1{
+	font-size: x-large;
+
+}
+.services p{
+	font-size: large;
+	width: 100%;
+	letter-spacing: .1rem;
+	text-align: justify;
+}
+.design{
+	height: 148vh;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	border-bottom: 2px solid black;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 2%;
+	height: 40vh;
+	width: 49%;
+	border: 1px solid black;
+	background-color: #E8E7E7;
+}
+.box h1{
+	font-size: larger;
+}
+.box p{
+	font-size: large;
+	text-align: justify;
+}
+.box btn{
+	width: 45%;
+	height: 9vh;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	margin-top: 2%;
+	margin-bottom: -2%;
+}
+.box btn a{
+	text-decoration: none;
+	color: black;
+}
+.section-bottom{
+	width: 100%;
+	display: flex;
+	height: 70vh;
+	margin-top: 4%;
+	justify-content: space-between;
+	margin-bottom: 4%;
+}
+.section-bottom img{
+	width: 49%;
+}
+.section-bottom div{
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section-bottom div h1{
+	font-size: larger;
+}
+.section-bottom div p{
+	font-size: large;
+	letter-spacing: .1rem;
+	text-align: justify;
+	line-height: 2rem;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.section-bottom div ul{
+	list-style-type: disc;
+	font-size: large;
+	line-height: 3rem;
+	margin-left: 4%;
+}
+.other-footer{
+	height: 10vh;
+}
